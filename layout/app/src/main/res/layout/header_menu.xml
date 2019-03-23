@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@color/HongNhat"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/logo3" />
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="5dp"
+        android:text="Tú Uyên"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

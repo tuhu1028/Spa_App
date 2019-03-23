@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.asus.demo2">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SpaManagerActivity"
+            android:label="Admin My Spa"
+            android:parentActivityName=".LoginActivity">
+
+        </activity>
+        <activity android:name=".QRCode"
+            android:label="Ưu đãi đã lấy"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".YourOrderActivity" android:label="Thông tin phiếu giảm giá"/>
+        <activity android:name=".YourOrderActivity2" android:label="Thông tin phiếu giảm giá"/>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".DetailActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Beauty Spa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MassageActivity"
+            android:label="Massage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NailsActivity"
+            android:label="Nails"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FacialActivity"
+            android:label="Facial"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BrowsActivity"
+            android:label="Brows"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MakeupActivity"
+            android:label="Makeup"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WaxingActivity"
+            android:label="Waxing"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login to enjoy BeautySpa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="My Spa"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

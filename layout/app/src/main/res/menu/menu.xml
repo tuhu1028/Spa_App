@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Tài khoản" android:id="@+id/profileId" />
+    <item android:title="Đặt chỗ" android:id="@+id/cartId"/>
+    <item android:title="Promte" android:id="@+id/promoteId"/>
+    <item android:title="Giới thiệu" android:id="@+id/aboutUsId"/>
+    <item android:title="Đăng xuất" android:id="@+id/logoutId"/>
+
+</menu>

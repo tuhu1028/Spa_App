@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff3e3</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="chuDam">#8a745a</color>
+    <color name="chuNhat">#a99072</color>
+    <color name="HongNhat">#fff3e3</color>
+    <color name="BorderIcon">#B03C3C</color>
+    <color name="NauDam">#5f4a37</color>
+    <color name="NauVua">#5f4a37</color>
+    <color name="Red">#E90606</color>
+    <color name="Trang">#FFFF</color>
+    <color name="vienNhat">#745F4A37</color>
+</resources>

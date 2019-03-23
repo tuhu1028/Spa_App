@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Áp dụng cho gói Massage body với đá quý cải thiện sức khỏe. Chi tiết các ưu đãi vui lòng tham khảo bên dưới.
+
++ Voucher 300,000đ ưu đãi còn 99,000đ/1 khách hàng (không bù tiền)
+
++ Voucher 600,000đ ưu đãi còn 169,000đ/nhóm 02 khách hàng (không bù tiền)
+
++ Voucher 1,200,000đ ưu đãi còn 300,000đ/nhóm 04 khách hàng (không bù tiền)
+- Thời gian: 9h - 21h, tất cả các ngày trong tuần. Trừ các ngày lễ, Tết.
+
+- Khách hàng được mua nhiều phiếu để sử dụng và tặng người thân, bạn bè.
+
+- Áp dụng cho cả nam và nữ.
+
+- Khách hàng vui lòng đặt chỗ trước 1 tiếng đến để được phục vụ tốt nhất.
+
+- Khách hàng có thể được sử dụng và mua nhiều voucher để tặng người thân hoặc bạn bè.
+
+- Phiếu không có giá trị quy đổi thành tiền mặt, không trả lại tiền thừa.
+
+- Thanh toán online nhận ngay voucher điện tử.
+
+- Thanh toán trả sau (COD) nhận voucher điện tử: MIỄN PHÍ.
+
+- Thanh toán trả sau nhận voucher giấy miễn phí cho đơn hàng từ 150.000vnđ trở lên, đơn hàng dưới 150.000vnđ thu phí giao hàng 9.000vnđ."/>
+</LinearLayout>

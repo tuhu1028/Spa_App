@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thứ sáu (22/3)"
+        android:id="@+id/menuDay1"></item>
+    <item android:title="Thứ bảy (23/3)"
+        android:id="@+id/menuDay2"></item>
+    <item android:title="Chủ Nhật (23/3)"
+    android:id="@+id/menuDay3"></item>
+
+</menu>

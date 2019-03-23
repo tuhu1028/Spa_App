@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="massage 30p"
+        android:id="@+id/menuTreatment1"></item>
+    <item android:title="massge 60p"
+        android:id="@+id/menuTreatment2"></item>
+    <item android:title="massage 90p"
+        android:id="@+id/menuTreatment3"></item>
+    <item android:title="massage 120p"
+        android:id="@+id/menuTreatment4"></item>
+    <item android:title="massage 150p"
+        android:id="@+id/menuTreatment5"></item>
+</menu>

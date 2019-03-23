@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff3e3"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff3e3"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ma01"
+                />
+
+            <TextView
+                android:id="@+id/item_sale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f10b0b"
+                android:text="Sale 10%"
+                android:textColor="#ffff" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Massage store name"
+                android:textColor="@color/chuDam"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Massage address"
+                android:textColor="@color/chuNhat"
+                android:textSize="12dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="12.5"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_start" />
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_start" />
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_start" />
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_start" />
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ic_start" />
+                <TextView
+                    android:id="@+id/item_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="Rating"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/item_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:text="price" />
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/local"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="right"/>
+            <TextView
+                android:id="@+id/item_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="0.00 km" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b0513c" />
+</LinearLayout>
